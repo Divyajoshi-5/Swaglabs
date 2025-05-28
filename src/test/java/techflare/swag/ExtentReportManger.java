@@ -33,6 +33,9 @@ public class ExtentReportManger {
 		extent.attachReporter(htmlReporter);
 		extent.setSystemInfo("Tester", "Divya");
 		extent.setSystemInfo("Environment", "QA");
+		extent.setSystemInfo("OS", "Windows11");
+		extent.setSystemInfo("Browser", "Google Chrome");
+		 
 		
 		return extent;
 		
